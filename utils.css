@@ -1,0 +1,115 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+
+.bg-red{
+    background-color: 46, 149, 46;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.font-bold{
+    font-weight: bolder;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.my-2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-blue{
+    color: rgb(2, 3, 7);;
+}
+
+.btn{
+    padding:15px 35px;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: #fc5185;
+    box-shadow: 0 1px 8px #00000029;
+}
+
+.logbtn{
+    padding:20px 20px;
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #1d1e20;
+    
+}
+
+.btn1{
+    padding:15px 35px;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: #673de6;;
+    box-shadow: 0 1px 8px #00000029;
+}
+
+.btn2{
+    padding:15px 35px;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    background-color: #673de6;;
+    box-shadow: 0 1px 8px #00000029;
+}
+
+.overflow-x-hidden{
+    overflow-x: hidden;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.icon {
+    font-size: 25px; 
+}
+
+.section1 {
+    background-color: #f4f5ff; 
+}
+
+.flex {
+    background-color: #f4f5ff; 
+}

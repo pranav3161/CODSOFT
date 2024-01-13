@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hostinger - The best Hosting Provider For Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class=" text-center">
+                    <img class="dumbellimg" src="c:\Users\Dell\Desktop\LandingPage\hostingerlogo.png" alt="">
+                </div>
+                <ul class="navbar flex items-center">
+                    <li>WordPress</li>
+                    <li>Website Builder</li>
+                    <li>Hosting</li>
+                    <li>Contact Us</li>
+                    <li><button class="logbtn">Log In</button></li>
+                </ul>
+            </nav>
+            
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <h1 class="my-1 text-center">Bring Your Idea Online With a Website
+                            Up to 77% off Hosting + Website Builder</h1>
+                            <p class="text-center">
+                                <div class="feature">
+                                    <span class="icon">&#128279;</span> <!-- Free Domain Icon -->
+                                    Free Domain
+                                </div>
+                                <div class="feature">
+                                    <span class="icon">&#128232;</span> <!-- Website Migration Icon -->
+                                    Free Website Migration
+                                </div>
+                                <div class="feature">
+                                    <span class="icon">&#128276;</span> <!-- 24/7 Customer Support Icon -->
+                                    24/7 Customer Support
+                                </div>
+                                • <strong style="color: black;">₹139.00/mo + 3 Months Free</strong>
+                            </p>
+                            <!-- Display the countdown timer in an element -->
+                            <p class="deal text-center"> <span id="demo"></span></p>
+                            <div class="buttons">
+                                <button class="btn">Claim Deal</button>
+                            </div>
+                            <script>
+                                // Set the date we're counting down to
+                                var countDownDate = new Date("Jan 1, 2025 00:00:00").getTime();
+                            
+                                // Update the countdown every 1 second
+                                var x = setInterval(function() {
+                                    // Get the current date and time
+                                    var now = new Date().getTime();
+                            
+                                    // Calculate the remaining time
+                                    var distance = countDownDate - now;
+                            
+                                    // Calculate days, hours, minutes, and seconds
+                                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                            
+                                    // Display the countdown in the "demo" element
+                                    document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                            
+                                    // If the countdown is over, display a message
+                                    if (distance < 0) {
+                                        clearInterval(x);
+                                        document.getElementById("demo").innerHTML = "EXPIRED";
+                                    }
+                                }, 1000); // Update every 1 second
+                            </script>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="gymimg" src="c:\Users\Dell\Desktop\Screenshot 2024-01-02 184221.png" alt="">
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section2">
+                <h1 class="text-center my-2">Select Your Plan</h1>
+                <p class="my-2"></p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Premium</h2>
+                        <ul>
+
+                            <li class="highlighted">₹149.00/mo +2 months FREE</li>
+                            <li>✔️ Standard Performance</li>
+                            <li>✔️ 100 Websites</li>
+                            <li>✔️ 100 GB SSD Storage</li>
+                            <li>✔️ Weekly Backups</li>
+                            <li>✔️ Unlimited Free SSL</li>
+                            <li>✔️ Free Domain (₹799.00 value)</li>
+                            <li>❌ Free CDN</li>
+                            <li><button class="btn1">Add To Cart🛒</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Business</h2>
+                        <ul>
+                            <li class="highlighted">₹269.00/mo +2 months FREE</li>
+                            <li>✔️ Increased Performance (Up to 5x) </li>
+                            <li>✔️ 100 Websites</li>
+                            <li>✔️ 200 GB NVMe Storage</li>
+                            <li>✔️ Daily Backups (₹1,380.00 value)</li>
+                            <li>✔️ Unlimited Free SSL</li>
+                            <li>✔️ Free Domain (₹799.00 value)</li>
+                            <li>❌Dedicated IP Address</li>
+
+
+                            <li><button class="btn">Add To Cart🛒</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Cloud Startup</h2>
+                        <ul>
+                            <li class="highlighted">₹
+                                699.00
+                                /mo
+                                +2 months FREE</li>
+                            <li>✔️ Maximum Performance (Up to 10x)</li>
+                            <li>✔️ 300 Websites</li>
+                            <li>✔️ 200 GB NVMe Storage</li>
+                            <li>✔️ Daily Backups (₹1,380.00 value)</li>
+                            <li>✔️ Unlimited Bandwidth</li>
+                            <li>✔️ Free Email</li>
+
+                            <li><button class="btn2">Add To Cart🛒</button></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <div class=" text-center">
+                    <img class="starsimg" src="c:\Users\Dell\Desktop\Screenshot 2023-12-26 111353.png" alt="">
+                </div>
+                <h1 class="text-center my-2">Data Centres All Around the World </h1>
+                <p class=" text-center">Our web hosting, WordPress hosting, and cloud hosting plans offer server locations in: USA, United Kingdom, France, India, Singapore, Brazil, Lithuania, and the Netherlands.</p>
+
+                <img class="mapimg" src="c:\Users\Dell\Desktop\Screenshot 2023-12-26 112250.png" alt="">
+                <div class="landing-container">
+                    
+                    
+                    <div class="container1">
+                        <div class="landing-container">
+                            <div class="text-container1">
+                                <h1>All-In-One Website Solution</h1>
+                                
+                                <div class="feature">
+                                    <span class="icon">&#128188;</span> <!-- Manage up to 100 websites Icon -->
+                                    Manage up to 100 websites.
+                                </div>
+                                
+                                <div class="feature">
+                                    <span class="icon">&#127379;</span> <!-- Register a domain name for free Icon -->
+                                    Register a domain name for free.
+                                </div>
+                                
+                                <div class="feature">
+                                    <span class="icon">&#9993;</span> <!-- Set up a professional business email address Icon -->
+                                    Set up a professional business email address.
+                                </div>
+                                
+                                <div class="feature">
+                                    <span class="icon">&#9881;</span> <!-- Optimize your workflow with managed WordPress hosting Icon -->
+                                    Optimize your workflow with managed WordPress hosting.
+                                </div>
+                                
+                                <div class="feature">
+                                    <span class="icon">&#128295;</span> <!-- Launch websites quickly with our Website Builder Icon -->
+                                    Launch websites quickly with our Website Builder.
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <img class="mapimg" src="c:\Users\Dell\Desktop\Screenshot 2024-01-02 202414.png" alt="">
+           
+            <hr>
+        </main>
+        <footer>
+            Copyright &copy; hostinger.in | All rights reserved | <Address>Location: Kaunas, Lithuania
+                Hostinger, UAB
+                
+                Jonavos str. 60C, 44192</Address>
+        </footer>
+
+    </div>
+</body>
+
+</html>
